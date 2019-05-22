@@ -1,12 +1,21 @@
 # gatsby-plugin-hotjar-tracking
+[![npm version](https://badge.fury.io/js/gatsby-plugin-hotjar-tracking.svg)](https://www.npmjs.com/package/gatsby-plugin-hotjar-tracking)
 
 Easily add Hotjar Analytics to your Gatsby site.
 
-## Install
+## Installation
 
-`yarn add gatsby-plugin-hotjar-tracking`
+```
+npm i netlify-push-webpack-plugin
+```
 
-## How to use
+or 
+
+```
+yarn add gatsby-plugin-hotjar-tracking
+```
+
+## Usage
 
 ```javascript
 // In your gatsby-config.js
