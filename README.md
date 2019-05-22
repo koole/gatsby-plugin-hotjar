@@ -1,10 +1,10 @@
-# gatsby-plugin-hotjar
+# gatsby-plugin-hotjar-tracking
 
 Easily add Hotjar Analytics to your Gatsby site.
 
 ## Install
 
-`yarn add gatsby-plugin-hotjar`
+`yarn add gatsby-plugin-hotjar-tracking`
 
 ## How to use
 
@@ -12,7 +12,7 @@ Easily add Hotjar Analytics to your Gatsby site.
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-hotjar`,
+    resolve: `gatsby-plugin-hotjar-tracking`,
     options: {
       includeInDevelopment: false,
       id: YOUR_HOTJAR_ID,

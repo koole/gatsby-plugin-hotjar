@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-hotjar",
-  "version": "1.0.1",
+  "name": "gatsby-plugin-hotjar-tracking",
+  "version": "1.0.0",
   "description": "Gatsby plugin to add Hotjar analytics to your site.",
   "keywords": [
     "gatsby",
@@ -9,9 +9,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavloko/gatsby-plugin-hotjar.git"
+    "url": "git+https://github.com/koole/gatsby-plugin-hotjar-tracking.git"
   },
-  "author": "Pavlo Kochubei <pavlo.kochubei@hotmail.com> (https://pavlokochubei.com/)",
+  "author": "Leon Koole <leon@koole.io>",
   "license": "MIT",
   "main": "index.js",
   "scripts": {

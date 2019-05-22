@@ -5,7 +5,7 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
     const {id, sv, host} = pluginOptions
     return setPostBodyComponents([
       <script
-        key={`gatsby-plugin-hotjar`}
+        key={`gatsby-plugin-hotjar-tracking`}
         dangerouslySetInnerHTML={{
           __html: `
               (function(h,o,t,j,a,r){
