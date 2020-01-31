@@ -1,8 +1,11 @@
-import React from "react"
+import React from "react";
 
 exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
-  if (process.env.NODE_ENV === "production" || pluginOptions.includeInDevelopment) {
-    const {id, sv, host} = pluginOptions
+  if (
+    process.env.NODE_ENV === "production" ||
+    pluginOptions.includeInDevelopment
+  ) {
+    const { id, sv } = pluginOptions;
     return setPostBodyComponents([
       <script
         key={`gatsby-plugin-hotjar-tracking`}
@@ -16,11 +19,11 @@ exports.onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
                   r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                   a.appendChild(r);
               })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')
-          `,
+          `
         }}
-      />,
-    ])
+      />
+    ]);
   }
 
-  return null
-}
+  return null;
+};
