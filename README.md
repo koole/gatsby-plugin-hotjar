@@ -6,7 +6,7 @@ Easily add Hotjar Analytics to your Gatsby site.
 ## Installation
 
 ```
-npm i netlify-push-webpack-plugin
+npm i gatsby-plugin-hotjar-tracking --save
 ```
 
 or 
